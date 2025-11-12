@@ -1,0 +1,100 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', inherit, sans-serif;
+    background: radial-gradient(circle at top left, #ffecd2, #fcb69f);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #d62828;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 5px solid #f77f00;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Seções */
+section {
+    padding: 42px;
+}
+
+.recomendacao h2 {
+    color: #d62828;
+    margin-bottom: 20px;
+}
+
+/* Cartões de pizza */
+.pizza-card {
+    background-color: #fff8f0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+}
+
+.pizza-card:hover {
+    transform: scale(1.02);
+}
+
+.pizza-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.tamanhos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.tamanhos div {
+    background: #ffe8d6;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 160px;
+}
+
+button {
+    background-color: #f77f00;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #d62828;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fcbf49;
+}
+
+.botao-bebidas {
+    font-size: 1.1em;
+    background-color: #d62828;
+}
+
+.botao-bebidas:hover {
+    background-color: #f77f00;
+}
